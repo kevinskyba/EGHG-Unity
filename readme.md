@@ -3,7 +3,7 @@
 ## Requirements
 - Unity 2020.3.24f1
 - [Magic Leap SDK with The Lab](https://developer.magicleap.com/en-us/learn/guides/lab)
-- Optional: [Jupyter Notebook Analysis Project](https://githu.com)
+- Optional: [Jupyter Notebook Analysis Project](https://github.com/kevinskyba/EGHG-Analyzer)
 
 ## How To Run
 Currently, this app does not support running natively on Magic Leap because of some IL2CPP bug. Running the app follows the regular procedure for running a Unity App with [Zero Iteration](https://developer.magicleap.com/en-us/learn/guides/lab-zi).
@@ -14,7 +14,7 @@ The Jupyter Notebook Analysis Project is only available for the `EGHG` approach 
 
 ## Demo Video
 
-[Youtube](https://www.youtube.de/)
+[Youtube](https://www.youtube.com/watch?v=3hvjSWVDGhA)
 
 ## Explanation
 

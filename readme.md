@@ -18,4 +18,4 @@ The Jupyter Notebook Analysis Project is only available for the `EGHG` approach 
 
 ## Explanation
 
-[PDF](blob/main/Doc/main.pdf)
+[PDF](Doc/main.pdf)

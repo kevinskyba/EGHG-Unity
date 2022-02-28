@@ -12,10 +12,10 @@ In each scene, there is an `EGHGInputManager` GameObject, which contains an `Inp
 
 The Jupyter Notebook Analysis Project is only available for the `EGHG` approach and requires the `Pandas Connector` to be enabled.
 
-## Demo
+## Demo Video
 
 [Youtube](https://www.youtube.de/)
 
 ## Explanation
 
-![PDF](doc/main.pdf)
+[PDF](blob/main/Doc/main.pdf)

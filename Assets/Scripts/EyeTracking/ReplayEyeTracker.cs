@@ -49,7 +49,6 @@ namespace KevinSkyba
                     }
                 }
 
-                [Obsolete]
                 private void FixedUpdate()
                 {
                     base.FixedUpdate();
@@ -71,7 +70,7 @@ namespace KevinSkyba
                             lastHeadPose = entry.HeadGaze;
                             lastGazePoint = entry.EyeGaze;
                             camera.transform.position = entry.HeadWorldPosition;
-                            camera.transform.rotation = entry.HeadRotation;
+                            camera.transform.rotation = entry.HeadGaze;
                         }
 
                         currentReplayIndex++;

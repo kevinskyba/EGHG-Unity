@@ -5,7 +5,7 @@ namespace KevinSkyba
 {
     namespace EGHG
     {
-        public class EGHGLogHandler : ILogHandler
+        public class LogHandler : ILogHandler
         {
             public void LogFormat(LogType logType, UnityEngine.Object context, string format, params object[] args)
             {

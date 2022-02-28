@@ -12,7 +12,7 @@ namespace KevinSkyba
         {
             public abstract partial class EyeTrackingProvider : MonoBehaviour
             {
-                protected Logger logger = new Logger(new EGHGLogHandler());
+                protected Logger logger = new Logger(new LogHandler());
 
                 /// <summary>
                 /// Provides head gaze information as a world direction vector with origin <see cref="HeadTransform"/>.
@@ -66,8 +66,7 @@ namespace KevinSkyba
                     {
                         EyeGaze = EyeGaze,
                         HeadGaze = HeadGaze,
-                        HeadWorldPosition = HeadTransform.position,
-                        HeadRotation = HeadTransform.rotation
+                        HeadWorldPosition = HeadTransform.position
                     };
 
                     if (isRecording)

@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -68,14 +65,6 @@ namespace KevinSkyba
                         {
                             get { return headWorldPosition; }
                             set { headWorldPosition = value; }
-                        }
-
-                        [SerializeField]
-                        private Quaternion headRotation;
-                        public Quaternion HeadRotation
-                        {
-                            get { return headRotation; }
-                            set { headRotation = value; }
                         }
                     }
                     [SerializeField]

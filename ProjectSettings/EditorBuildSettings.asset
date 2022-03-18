@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EGHG_Calculator.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/EGHG_3D.unity
+    guid: fc29a0c266d789b4cb6c303d5ed9bfee
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: ee42a0332c1d0744584e86b8160aa228,
       type: 2}

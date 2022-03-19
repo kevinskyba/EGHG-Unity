@@ -53,23 +53,44 @@ namespace KevinSkyba
                 }
 
 
-                static public IEnumerable<T> Diff<T>(List<T> data)
+                static public IEnumerable<Vector2> Diff(List<Vector2> data)
                 {
                     return data.Zip(data.Skip(1), (a, b) => {
-                        dynamic _a = a;
-                        dynamic _b = b;
-                        return (T)(_b - _a);
+                        Vector2 _a = a;
+                        Vector2 _b = b;
+                        return (Vector2)(_b - _a);
                     });
                 }
 
-                static public IEnumerable<T> Diff<T>(this IEnumerable<T> source)
+                static public IEnumerable<Vector3> Diff(List<Vector3> data) 
                 {
-                    return source.Zip(source.Skip(1), (a, b) => {
-                        dynamic _a = a;
-                        dynamic _b = b;
-                        return (T)(_b -_a);
+                    return data.Zip(data.Skip(1), (a, b) => {
+                        Vector3 _a = a;
+                        Vector3 _b = b;
+                        return (Vector3)(_b - _a);
                     });
                 }
+
+             
+                static public IEnumerable<Vector2> Diff(this IEnumerable<Vector2> source) 
+                {
+                    return source.Zip(source.Skip(1), (a, b) => {
+                        Vector2 _a = a;
+                        Vector2 _b = b;
+                        return (Vector2)(_b -_a);
+                    });
+                }
+
+                static public IEnumerable<Vector3> Diff(this IEnumerable<Vector3> source)
+                {
+                    return source.Zip(source.Skip(1), (a, b) => {
+                        Vector3 _a = a;
+                        Vector3 _b = b;
+                        return (Vector3)(_b -_a);
+                    });
+                }
+
+              
 
                 static public double Percentile(this IEnumerable<float> source, double excelPercentile)
                 {

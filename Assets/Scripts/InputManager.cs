@@ -164,7 +164,7 @@ namespace KevinSkyba.EGHG
             }
         }
 
-        private void FixedUpdate()
+        private void LateUpdate()
         {
             if (mode == Mode.EGHG)
                 FixedUpdateEGHG();
